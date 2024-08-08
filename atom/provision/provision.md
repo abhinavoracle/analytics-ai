@@ -24,10 +24,16 @@ In this lab, you will:
 ### Prerequisites
 
 This lab assumes you have:
+<<<<<<< HEAD
+* An Oracle Cloud account
+* Access to the Chicago Region
+* Administrator permissions or permissions to use the Generative AI family, the AI services family, Digital Assistant, Visual Builder, and Identity Domains
+=======
 
 * An Oracle account
 * Access to the Chicago Region
 * Administrator permissions or permissions to use the Generative AI family, the AI services family, Digital Assistant, Visual Builder and Identity Domains
+>>>>>>> cbe8cd27398fc33e577ba1ee68674d22ff6e5d0f
 
 ## Task 1: Provision Oracle Digital Assistant
 
@@ -228,10 +234,30 @@ This task involves creating REST service which will be used by ODA to connect to
 
 8. Click on the Play button shown in the above image on the top right corner to launch ATOM chatbot and start chatting with ATOM.
 
+8. Step 8: Create a live version of the app
+
+    * Navigate to the vb application service page
+    * click on top right elipses menu -> stage
+        * Business Object Data:  Stage application with a clean database
+        * click "stage"
+    * click on top right elipses menu -> publish
+        * Business Object Data:  Publish application with a clean database
+        * click "publish"
+
+9. Step 9: Giving end users access to the app
+
+<!-- TODO: 
+need instructions on adding end users to the app in the Integrated application in Identity domains.
+-->
+
 ## Acknowledgements
 
 **Authors**
 
 * **Nitin Jain**, Master Principal Cloud Architect, NACIE
 * **Abhinav Jain**, Senior Cloud Engineer, NACIE
+<<<<<<< HEAD
+* **JB Anderson**,  Senior Cloud Engineer, NACIE
+=======
 * **JB Anderson**, Senior Cloud Engineer, NACIE
+>>>>>>> cbe8cd27398fc33e577ba1ee68674d22ff6e5d0f
